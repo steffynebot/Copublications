@@ -19,7 +19,8 @@ def create_app():
     app = Dash(
         __name__,
         external_stylesheets=[THEME],
-        external_scripts=external_scripts,suppress_callback_exceptions=True
+        external_scripts=external_scripts,suppress_callback_exceptions=True,
+        meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
     )
     app.title = "Copublications Inria"
 
