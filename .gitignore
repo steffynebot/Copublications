@@ -10,3 +10,12 @@ __pycache__/
 # OS/éditeur
 .DS_Store
 .vscode/
+
+# IDE (PyCharm/IntelliJ)
+.idea/
+**/.idea/
+
+# Python caches déjà committés par le passé
+__pycache__/
+**/__pycache__/
+*.py[cod]
