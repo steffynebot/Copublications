@@ -1,8 +1,0 @@
-pandas
-numpy
-wordcloud
-networkx
-dash
-dash-bootstrap-components
-plotly
-flask
